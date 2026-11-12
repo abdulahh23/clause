@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[oc]
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Node (web)
+node_modules/
+.next/
+
+/notebooks/
+/playground/
+
+test.py
