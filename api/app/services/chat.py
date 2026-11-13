@@ -32,7 +32,7 @@ class RAGService:
             model=self.settings.chat_model,
             model_provider=self.settings.chat_provider,
             temperature=self.settings.temperature,
-            google_api_key=self.settings.google_api_key
+            # google_api_key=self.settings.google_api_key
         )
 
     def ask(self, question: str) -> Answer | None:

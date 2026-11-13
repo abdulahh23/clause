@@ -15,8 +15,8 @@ class Settings(BaseSettings):
     data_path: str = "files/shop_handbook.pdf"
 
     #Chat
-    chat_provider: str = "google_genai"
-    chat_model: str = "gemini-3.5-flash-lite"
+    chat_provider: str = "ollama"
+    chat_model: str = "gemma3:1b"
     google_api_key: str = ""
     temperature: float = 0.1
 
